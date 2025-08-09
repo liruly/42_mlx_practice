@@ -1,0 +1,3 @@
+- minilibx-Linuxを解凍したフォルダをそのままプロジェクトのルートディレクトリに持ってくる
+- ターミナル上で`cd minilibx-Linux`して`make`する
+- ルートディレクトリに戻り、`cc main.c -Lminilibx-linux -lmlx -lXext -lX11`を実行すると実行ファイルができるので、実行してください。
